@@ -4,8 +4,14 @@ require("config.lazy")
 vim.opt.relativenumber = false
 
 if vim.g.vscode then
-    -- VSCode extension
-    local vscode = require('vscode-neovim')
+  -- VSCode extension
+  return {
+    {
+      'vscode-neovim/vscode-multi-cursor.nvim',
+      event = 'VeryLazy',
+      opts = {},
+    } 
+  }
 else
-    -- ordinary Neovim
+  -- ordinary Neovim
 end
