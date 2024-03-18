@@ -2,15 +2,13 @@
 
 return {
   {
-    "tomasiser/vim-code-dark",
-    priority = 1000, -- Ensure it loads first
-  },
-
-  -- Configure LazyVim to load gruvbox
-  {
-    "LazyVim/LazyVim",
+    "tiagovla/tokyodark.nvim",
     opts = {
-      colorscheme = "codedark",
+        -- custom options here
     },
-  },
+    config = function(_, opts)
+        require("tokyodark").setup(opts) -- calling setup is optional
+        vim.cmd [[colorscheme tokyodark]]
+    end,
+  }
 }
