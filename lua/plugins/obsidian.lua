@@ -30,5 +30,6 @@ return {
     attachments = {
       img_folder = "/Users/elian/Documents/Obsidian Vault/Images/",
     },
+    disable_frontmatter = true,
   },
 }
