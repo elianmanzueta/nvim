@@ -4,26 +4,21 @@ return {
     opts = {
       -- custom options here
     },
-    config = function(_, opts)
-      require("tokyodark").setup(opts) -- calling setup is optional
+    config = function()
       vim.cmd([[colorscheme mellow]])
     end,
   },
   {
     "nyoom-engineering/oxocarbon.nvim",
-    -- Add in any other configuration;
-    --   event = foo,
-    --   config = bar
-    --   end,
   },
 
   {
-    "mellow-theme/mellow.nvim"
+    "mellow-theme/mellow.nvim",
   },
 
   {
-  "zootedb0t/citruszest.nvim",
-  lazy = false,
-  priority = 1000,
-  }, 
+    "zootedb0t/citruszest.nvim",
+    lazy = false,
+    priority = 1000,
+  },
 }
