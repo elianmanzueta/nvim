@@ -24,12 +24,12 @@ return {
 
     image_name_func = function()
       -- Prefix image names with timestamp.
-      return string.format("Pasted Image %s", os.time())
+      return string.format("%s", os.time())
     end,
 
     attachments = {
       img_folder = "/Users/elian/Documents/Obsidian Vault/Images/",
     },
-    disable_frontmatter = true,
+    disable_frontmatter = false,
   },
 }
