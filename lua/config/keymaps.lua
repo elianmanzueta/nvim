@@ -6,5 +6,13 @@ vim.api.nvim_set_keymap("n", "<C-h>", "<C-w>h", { noremap = true })
 vim.api.nvim_set_keymap("n", "<C-j>", "<C-w>j", { noremap = true })
 vim.api.nvim_set_keymap("n", "<C-k>", "<C-w>k", { noremap = true })
 vim.api.nvim_set_keymap("n", "<C-l>", "<C-w>l", { noremap = true })
-vim.api.nvim_set_keymap("n", "<leader>op", ":ObsidianPasteImg<CR><CR><CR>", { noremap = true })
 
+-- Obsidian
+vim.api.nvim_set_keymap("n", "<leader>op", ":ObsidianPasteImg<CR><CR><CR>", { noremap = true, desc="Paste Image" })
+vim.api.nvim_set_keymap("n", "<leader>sO", ":ObsidianSearch<CR>", { noremap = true})
+
+-- Surround
+vim.api.nvim_set_keymap("n", "<leader>B", "vegz", { noremap = true })
+
+-- Minimap
+vim.api.nvim_set_keymap("n", "<leader>M", ":MinimapToggle<CR>", { noremap = true})
