@@ -1,0 +1,6 @@
+{
+  "Highlight": {
+    "prefix": ["hl", "highlight"],
+    "body": "**==$0==**"
+  }
+}

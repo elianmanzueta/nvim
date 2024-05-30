@@ -3,7 +3,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "oldworld",
+      colorscheme = "tokyonight-night",
     },
   },
 
@@ -45,5 +45,12 @@ return {
 
   {
     "dgox16/oldworld.nvim",
+    lazy = false,
+  },
+
+  {
+    "folke/tokyonight.nvim",
+    lazy = false,
+    opts = {},
   },
 }
