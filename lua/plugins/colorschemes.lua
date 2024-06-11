@@ -25,7 +25,7 @@ return {
   {
     "navarasu/onedark.nvim",
     opts = {
-      style = "warmer",
+      style = "darker",
     },
   },
 
@@ -51,6 +51,10 @@ return {
   {
     "folke/tokyonight.nvim",
     lazy = false,
+    opts = {},
+  },
+  {
+    "sainnhe/sonokai",
     opts = {},
   },
 }
