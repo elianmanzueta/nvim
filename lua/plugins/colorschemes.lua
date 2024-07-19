@@ -3,12 +3,13 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "kanagawa-wave",
+      colorscheme = "modus",
     },
   },
 
   {
     "rebelot/kanagawa.nvim",
+    lazy = false,
     opts = {
       colors = {
         theme = {
@@ -24,6 +25,7 @@ return {
 
   {
     "navarasu/onedark.nvim",
+    lazy = false,
     opts = {
       style = "darker",
     },
@@ -31,6 +33,7 @@ return {
 
   {
     "catppuccin/nvim",
+    lazy = false,
     name = "catppuccin",
     opts = {
       color_overrides = {
@@ -55,6 +58,19 @@ return {
   },
   {
     "sainnhe/sonokai",
+    lazy = false,
+    opts = {},
+  },
+
+  {
+    "tiagovla/tokyodark.nvim",
+    lazy = false,
+    opts = {},
+  },
+  {
+    "miikanissi/modus-themes.nvim",
+    lazy = false,
+    priority = 1000,
     opts = {},
   },
 }
