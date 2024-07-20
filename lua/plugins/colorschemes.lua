@@ -3,24 +3,14 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "modus",
+      colorscheme = "kanagawa",
     },
   },
 
   {
     "rebelot/kanagawa.nvim",
     lazy = false,
-    opts = {
-      colors = {
-        theme = {
-          all = {
-            ui = {
-              bg_gutter = "none",
-            },
-          },
-        },
-      },
-    },
+    opts = {},
   },
 
   {
@@ -35,15 +25,7 @@ return {
     "catppuccin/nvim",
     lazy = false,
     name = "catppuccin",
-    opts = {
-      color_overrides = {
-        mocha = {
-          base = "#000000",
-          mantle = "#000000",
-          crust = "#000000",
-        },
-      },
-    },
+    opts = {},
   },
 
   {
