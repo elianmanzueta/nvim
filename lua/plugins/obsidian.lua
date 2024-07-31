@@ -25,7 +25,7 @@ return {
 
     image_name_func = function()
       -- Prefix image names with timestamp.
-      return string.format("%s", os.date())
+      return string.format("PastedImage-" .. os.date("%m-%d-%Y"))
     end,
 
     attachments = {
