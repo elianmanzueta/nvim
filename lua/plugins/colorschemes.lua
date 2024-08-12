@@ -3,7 +3,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "kanagawa",
+      colorscheme = "monokai-pro-spectrum",
     },
   },
 
@@ -41,18 +41,21 @@ return {
   {
     "sainnhe/sonokai",
     lazy = false,
+    priority = 1000,
     opts = {},
   },
+
+  { "loctvl842/monokai-pro.nvim", opts = {} },
 
   {
     "tiagovla/tokyodark.nvim",
     lazy = false,
     opts = {},
   },
+
   {
     "miikanissi/modus-themes.nvim",
     lazy = false,
-    priority = 1000,
     opts = {},
   },
 }

@@ -4,4 +4,9 @@
 
 -- Disable autoformat
 vim.g.autoformat = false
+
+-- Set LSP to basedpyright
 vim.g.lazyvim_python_lsp = "basedpyright"
+
+-- Sonokai
+vim.g.sonokai_better_performance = 1
