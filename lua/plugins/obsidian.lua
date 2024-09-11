@@ -25,7 +25,12 @@ return {
       },
     },
 
+    image_name_func = function()
+      return string.format("%s-", os.time())
+    end,
+
     attachments = {
+
       -- img_folder = "/Users/elian/Documents/obsidian/Images/",
       img_folder = "~/obsidian/Images/",
     },
