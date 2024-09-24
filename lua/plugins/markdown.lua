@@ -1,6 +1,10 @@
 return {
-  "MeanderingProgrammer/markdown.nvim",
+  "MeanderingProgrammer/render-markdown.nvim",
   main = "render-markdown",
-  opts = {},
-  enabled = false,
+  opts = {
+    bullet = {
+      right_pad = 1,
+    },
+  },
+  enabled = true,
 }

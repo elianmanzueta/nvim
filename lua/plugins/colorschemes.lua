@@ -58,4 +58,10 @@ return {
     lazy = false,
     opts = {},
   },
+
+  {
+    "projekt0n/github-nvim-theme",
+    lazy = false,
+  }
+
 }
