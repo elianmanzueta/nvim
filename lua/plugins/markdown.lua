@@ -7,4 +7,17 @@ return {
     },
   },
   enabled = true,
+  preset = "obsidian",
+
+  bullet = {
+    enabled = false,
+  },
+
+  heading = {
+    icons = { "󰲡 ", "󰲣 ", "󰲥 ", "󰲧 ", "󰲩 ", "󰲫 " },
+  },
+
+  sign = {
+    enabled = true,
+  },
 }
