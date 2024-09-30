@@ -16,6 +16,8 @@ return {
 
     -- see below for full list of optional dependencies 👇
   },
+
+  ui = { enable = true },
   opts = {
     workspaces = {
       {
