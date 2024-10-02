@@ -1,7 +1,7 @@
 tt.*
 .tests
 doc/tags
-spell/*
+spell
 debug
 .repro
 foo.*
