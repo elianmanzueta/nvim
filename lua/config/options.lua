@@ -10,6 +10,3 @@ vim.g.lazyvim_python_lsp = "basedpyright"
 
 -- Sonokai
 vim.g.sonokai_better_performance = 1
-
--- Conceal
-vim.opt.conceallevel = 2
