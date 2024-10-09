@@ -5,19 +5,8 @@ return {
     bullet = {
       right_pad = 1,
     },
-  },
-  enabled = true,
-  preset = "obsidian",
 
-  bullet = {
-    enabled = false,
-  },
-
-  heading = {
-    icons = { "󰲡 ", "󰲣 ", "󰲥 ", "󰲧 ", "󰲩 ", "󰲫 " },
-  },
-
-  sign = {
     enabled = true,
+    preset = "obsidian",
   },
 }
