@@ -1,0 +1,6 @@
+{
+  "Tip": {
+    "prefix": ["example"],
+    "body": "> [!EXAMPLE]\n> $0"
+  }
+}
