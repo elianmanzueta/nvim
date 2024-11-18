@@ -22,6 +22,9 @@ return {
         name = "personal",
         -- path = "~/Documents/obsidian/",
         path = "~/obsidian/",
+        overrides = {
+          notes_subdir = "notes",
+        },
       },
     },
 

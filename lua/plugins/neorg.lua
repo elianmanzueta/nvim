@@ -8,6 +8,8 @@ return {
       load = {
         ["core.defaults"] = {},
         ["core.concealer"] = {},
+        ["core.promo"] = {},
+        ["core.summary"] = {},
         ["core.completion"] = {
           config = {
             engine = "nvim-cmp",
@@ -22,6 +24,11 @@ return {
             default_workspace = "main",
           },
         },
+        ["core.esupports.metagen"] = {
+          config = { author = "Elian Manzueta", type = "auto" },
+        },
+        ["core.qol.toc"] = {},
+        ["core.esupports.indent"] = {}
       },
     })
   end,
