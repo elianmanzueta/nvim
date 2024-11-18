@@ -6,6 +6,11 @@ return {
       right_pad = 1,
     },
 
+    checkbox = {
+      enabled = true,
+      position = "inline",
+    },
+
     enabled = true,
     preset = "obsidian",
   },

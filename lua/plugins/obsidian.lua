@@ -14,7 +14,7 @@ return {
     "nvim-lua/plenary.nvim",
   },
 
-  ui = { enable = true },
+  ui = { enable = false },
 
   opts = {
     workspaces = {
